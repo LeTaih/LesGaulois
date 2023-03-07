@@ -45,8 +45,18 @@ public class Gaulois {
 //		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
 //	}
 
+//	public static void main(String[] args) {
+//		public asterix(String nom, int force) {
+//			this.nom = "Astérix";
+//			this.force = 8;
+//		}
+//		
+//		System.out.println(asterix);
+//	}
 	public static void main(String[] args) {
-		asterix (nom = "Astérix", force = 8),
+		asterix(nom = "Astérix", force = 8);
 		System.out.println(asterix);
+		
 	}
+
 }
