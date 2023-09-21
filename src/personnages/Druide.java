@@ -43,6 +43,5 @@ public class Druide {
 	public static void main(String[] args) {
 		Druide panoramix = new Druide("Panoramix",5,10);
 		panoramix.preparerPotion();
-		System.out.println(forcePotion);
 	}
 }
