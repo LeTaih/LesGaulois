@@ -3,7 +3,7 @@ package personnages;
 public class Gaulois {
 	private String nom;
 	private int force;
-	public int effetPotion = 1;
+	private int effetPotion = 1;
 	
 	
 	public Gaulois(String nom, int force) {

@@ -3,10 +3,10 @@ package personnages;
 public class Chef {
 	private String nom;
 	private int force;
-	public int effetPotion = 1;
+	private int effetPotion = 1;
 	private Village village;
 	
-	public Chef(String nom, int force, int effetPotion, Village village) {
+	public Chef(String nom, int force, Village village) {
 		super();
 		this.nom = nom;
 		this.force = force;
